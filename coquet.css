@@ -1,0 +1,51 @@
+button.encrip {
+    padding: 1rem 2rem;
+    border-radius: 0.3rem;
+    background: url('lunares.avif') center center/cover;
+    background: cover;
+    color: rgb(151, 65, 65);
+    border: none;
+    font-weight: bold; 
+    margin: 1.3rem; 
+
+}
+button.encrip:active {
+    background: url('lunaresblack.avif') center center/cover;
+}
+.copy{
+    background-color: rgb(241, 171, 186);
+    color: white;
+    border-radius: 1rem 2rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    }
+.copi {
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    background-image: url('fondo\ rosa.avif');
+    background-size: cover;
+    background-position: center;
+    padding: none;
+    margin: auto; 
+}
+textarea{
+    display: flex;
+    flex-flow: center;
+    margin: auto;
+    padding: 5.7rem;
+}
+.botones{
+    display: flex;
+    justify-content: center;
+}
+#resultado{
+    margin: auto;
+    padding: 5.7rem;
+    }
+.respuesta{
+    display: flex;
+    justify-content: center;
+}

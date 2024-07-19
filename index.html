@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secret</title>
+    <link rel="icon" href="icon.png">
+    <link rel="stylesheet" href="coquet.css">
+</head>
+<body>
+    <main>
+        <textarea name="texto" id="texto"></textarea> 
+        
+        <br>
+
+        <div class="botones">
+            <button class="encrip" onclick="EncriptarTexto()">ENCRIPTAR</button>
+            <button class="encrip" onclick="DesencriptarTexto()">DESENCRIPTAR</button>
+        </div>
+
+        <br><br>
+
+        <div class="respuesta">
+            <p id="resultado"></p>
+        </div>
+
+        <div class="copi">
+            <button class="copy" onclick="copiar()">COPIAR</button>
+        </div>
+            <script src="desencriptar.js" ></script>
+        <script src="encriptar.js"></script>
+    </main>
+</body>
+</html>
